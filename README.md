@@ -2,11 +2,7 @@
 computer graphic class 2026-2
 
 ---------------------------------
-Juan Felipe Martínez
-Juan Diego Maldonado
-Juan Esteban Medina
 Lemus David Water
-Valeria Cecilia Blanquicett
 ---------------------------------
 
 ## Entrega 1 Heal
