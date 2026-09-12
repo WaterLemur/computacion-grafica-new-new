@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_VFX_Slash1
-  m_Shader: {fileID: -6465566751694194690, guid: f592774b453dc8254bb3018e562af9ae, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: e5324e1d29362c3b9ae7867887a4777e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -70,6 +70,7 @@ Material:
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
     - _Surface: 1
+    - _TimeMultiplier: 1
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
