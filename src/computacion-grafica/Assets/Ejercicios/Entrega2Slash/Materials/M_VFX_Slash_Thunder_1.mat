@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_VFX_Slash1
-  m_Shader: {fileID: -6465566751694194690, guid: f592774b453dc8254bb3018e562af9ae, type: 3}
+  m_Name: M_VFX_Slash_Thunder_1
+  m_Shader: {fileID: -6465566751694194690, guid: e5324e1d29362c3b9ae7867887a4777e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -41,7 +41,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 432df027c18436d6f823b58872eff0cd, type: 3}
+        m_Texture: {fileID: 2800000, guid: bcb324006f815fd07bf4a2e67dcf9cfd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
