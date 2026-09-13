@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3243029747225342824
+--- !u!114 &-2261853727327903383
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_VFX_Slash_Water_Base_2
-  m_Shader: {fileID: -6465566751694194690, guid: b9164920d1b8843ef8dd9ce2a72e8ea7, type: 3}
+  m_Name: M_VFX_Slash_Cut_Base
+  m_Shader: {fileID: -6465566751694194690, guid: baf3cf07614e25128919a0d9074f7498, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -41,7 +41,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 9d779496ae6f49867a6fb2bc27856858, type: 3}
+        m_Texture: {fileID: 2800000, guid: 972167aa337c67aa19e09eef8f9d8ac9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -70,12 +70,11 @@ Material:
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
     - _Surface: 1
-    - _TextOffset: 0.35
-    - _TimeMultiplier: 1
+    - _TextureOffset: 0.75
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 23.968626, g: 23.968626, b: 23.968626, a: 1}
+    - _Color: {r: 8.574187, g: 8.574187, b: 8.574187, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
