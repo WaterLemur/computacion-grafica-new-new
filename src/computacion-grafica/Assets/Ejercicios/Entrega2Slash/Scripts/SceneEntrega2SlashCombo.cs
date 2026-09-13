@@ -2,13 +2,26 @@ using UnityEngine;
 
 public class SceneEntrega2SlashCombo : Scene
 {
+    [Header("STATES")]
+    [SerializeField] bool isCinema;
+    public bool IsCinema 
+    { 
+        get => isCinema; 
+        set 
+        {
+            isCinema = value;
+            CheckCinemaState();
+        } 
+    }
+    
     [Header("CHARACTERS")]
     [SerializeField] GameObject charRBot;
     [SerializeField] GameObject charRiven;
     [SerializeField] GameObject charLink;
     [SerializeField] GameObject charAang;
-    [SerializeField] GameObject charKatara;
     [Space(5)]
+    [SerializeField] GameObject charKatara;
+    [SerializeField] GameObject charToph;
     [SerializeField] GameObject propChest;
     [SerializeField] GameObject propGoblinThrone;
 
@@ -18,13 +31,15 @@ public class SceneEntrega2SlashCombo : Scene
     [SerializeField] GameObject wpnMasterShield;
     [SerializeField] GameObject wpnAirbenderStaff;
 
-    [Header("FX GAMEOBJECT")]
+    [Header("PARENTS")]
     [SerializeField] GameObject fXParentObject;
+    [SerializeField] GameObject cinemaParentObject;
 
     public GameObject FXParentObject
     {
         get => fXParentObject;
     }
+
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -39,19 +54,33 @@ public class SceneEntrega2SlashCombo : Scene
         
     }
 
+
+    void CheckCinemaState()
+    {
+        if(isCinema)
+        {
+            cinemaParentObject.transform.localScale = new Vector3(1, 1, 1);
+        }
+        else
+        {
+            cinemaParentObject.transform.localScale = new Vector3(0, 0, 0);
+        }
+    }
+
     void DisableAll()
     {
         charRBot.SetActive(false);
         charRiven.SetActive(false);
         charLink.SetActive(false);
         charAang.SetActive(false);
-        charKatara.SetActive(false);
 
         wpnBrokenBlade.SetActive(false);
         wpnMasterSword.SetActive(false);
         wpnMasterShield.SetActive(false);
         wpnAirbenderStaff.SetActive(false);
         
+        charKatara.SetActive(false);
+        charToph.SetActive(false);
         propChest.SetActive(false);
         propGoblinThrone.SetActive(false);
     }
@@ -61,7 +90,7 @@ public class SceneEntrega2SlashCombo : Scene
         wpnAirbenderStaff.SetActive(true);
 
         charKatara.SetActive(true);
-
+        charToph.SetActive(true);
         propChest.SetActive(true);
         propGoblinThrone.SetActive(true);
     }

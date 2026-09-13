@@ -1,12 +1,13 @@
-using UnityEngine;
-using UnityEditor;
-using UnityEngine.Playables;
-using UnityEngine.Timeline;
-using UnityEditor.Timeline;
+using UnityEngine; 
+using UnityEditor; 
+using UnityEngine.Playables; 
+using UnityEngine.Timeline; 
+using UnityEditor.Timeline; 
 
 public class SlashComboMenuTool
 {
     const string address = "⚙️/ENTREGA 2: Set scene for";
+    const string addressCinema = address + "/🙌 ✋CINEMA✋";
     
     static SceneEntrega2SlashCombo targetScript;
     static PlayableDirector director;
@@ -29,10 +30,7 @@ public class SlashComboMenuTool
         director = Object.FindAnyObjectByType<PlayableDirector>();
     }
 
-    /// <summary>
-    /// Finds all group tracks (including nested ones), mutes the inactive ones, 
-    /// and completely unmutes the target group and its inner sub-tracks.
-    /// </summary>
+
     static void ConfigureGroupTracks(string groupToEnable)
     {
         if (director == null) return;
@@ -108,31 +106,56 @@ public class SlashComboMenuTool
         }
     }
 
-    [MenuItem(address + "/" + "👾")]
+    [MenuItem(addressCinema, false, 1)] 
+    private static void SetSceneForCinema() 
+    { 
+        GetRefs();
+        if (targetScript != null)
+        {
+            Undo.RegisterFullObjectHierarchyUndo(targetScript.gameObject, "Toggle Cinema Mode");
+            targetScript.IsCinema = !targetScript.IsCinema;
+            
+            EditorUtility.SetDirty(targetScript.gameObject);
+            SceneView.RepaintAll();
+        }
+    } 
+
+    [MenuItem(addressCinema, true, 1)] 
+    private static bool SetSceneForCinemaValidate() 
+    { 
+        GetRefs();
+        if (targetScript != null)
+        {
+            Menu.SetChecked(addressCinema, targetScript.IsCinema); 
+        }
+        return true; 
+    } 
+
+    [MenuItem(address + "/" + "👾", false, 20)]
     private static void SetSceneForPixel()
     {
         SetSceneForElement(groupTrackNames[0], () => targetScript.SetSlashPixel());
     }
 
-    [MenuItem(address + "/" + "🔥")]
+    [MenuItem(address + "/" + "🔥", false, 21)]
     private static void SetSceneForFire()
     {
         SetSceneForElement(groupTrackNames[1], () => targetScript.SetSlashFire());
     }
 
-    [MenuItem(address + "/" + "🌊")]
+    [MenuItem(address + "/" + "🌊", false, 22)]
     private static void SetSceneForWater()
     {
         SetSceneForElement(groupTrackNames[2], () => targetScript.SetSlashWater());
     }
 
-    [MenuItem(address + "/" + "⚡")]
+    [MenuItem(address + "/" + "⚡", false, 23)]
     private static void SetSceneForThunder()
     {
         SetSceneForElement(groupTrackNames[3], () => targetScript.SetSlashThunder());
     }
 
-    [MenuItem(address + "/" + "🩸")]
+    [MenuItem(address + "/" + "🩸", false, 24)]
     private static void SetSceneForCut()
     {
         SetSceneForElement(groupTrackNames[4], () => targetScript.SetSlashCut());
