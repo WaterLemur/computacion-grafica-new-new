@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SceneEntrega2SlashCombo : Scene
+public class SceneActividad2Slash : Scene
 {
     [Header("STATES")]
     [SerializeField] bool isCinema;

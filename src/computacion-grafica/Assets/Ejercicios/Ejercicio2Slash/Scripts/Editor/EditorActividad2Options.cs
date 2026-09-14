@@ -9,7 +9,7 @@ public class SlashComboMenuTool
     const string address = "⚙️/ENTREGA 2: Set scene for";
     const string addressCinema = address + "/🙌 ✋CINEMA✋";
     
-    static SceneEntrega2SlashCombo targetScript;
+    static SceneActividad2Slash scriptScene;
     static PlayableDirector director;
 
     // Define the exact names of your parent Group Tracks here
@@ -26,7 +26,7 @@ public class SlashComboMenuTool
     
     static void GetRefs()
     {
-        targetScript = Object.FindAnyObjectByType<SceneEntrega2SlashCombo>();
+        scriptScene = Object.FindAnyObjectByType<SceneEntrega2SlashCombo>();
         director = Object.FindAnyObjectByType<PlayableDirector>();
     }
 
@@ -90,18 +90,18 @@ public class SlashComboMenuTool
     }
 
     // Master method to handle refs, timeline modifications, and script logic
-    static void SetSceneForElement(string groupName, System.Action targetScriptAction)
+    static void SetSceneForElement(string groupName, System.Action scriptSceneAction)
     {
         GetRefs();
         ConfigureGroupTracks(groupName);
-        if (targetScript != null)
+        if (scriptScene != null)
         {
-            Undo.RegisterFullObjectHierarchyUndo(targetScript.gameObject, "Set Combo Scene Option");
+            Undo.RegisterFullObjectHierarchyUndo(scriptScene.gameObject, "Set Combo Scene Option");
             
-            targetScriptAction?.Invoke();
+            scriptSceneAction?.Invoke();
             
-            EditorUtility.SetDirty(targetScript.gameObject);
-            Selection.activeGameObject = targetScript.FXParentObject;
+            EditorUtility.SetDirty(scriptScene.gameObject);
+            Selection.activeGameObject = scriptScene.FXParentObject;
             SceneView.RepaintAll();
         }
     }
@@ -110,12 +110,12 @@ public class SlashComboMenuTool
     private static void SetSceneForCinema() 
     { 
         GetRefs();
-        if (targetScript != null)
+        if (scriptScene != null)
         {
-            Undo.RegisterFullObjectHierarchyUndo(targetScript.gameObject, "Toggle Cinema Mode");
-            targetScript.IsCinema = !targetScript.IsCinema;
+            Undo.RegisterFullObjectHierarchyUndo(scriptScene.gameObject, "Toggle Cinema Mode");
+            scriptScene.IsCinema = !scriptScene.IsCinema;
             
-            EditorUtility.SetDirty(targetScript.gameObject);
+            EditorUtility.SetDirty(scriptScene.gameObject);
             SceneView.RepaintAll();
         }
     } 
@@ -124,9 +124,9 @@ public class SlashComboMenuTool
     private static bool SetSceneForCinemaValidate() 
     { 
         GetRefs();
-        if (targetScript != null)
+        if (scriptScene != null)
         {
-            Menu.SetChecked(addressCinema, targetScript.IsCinema); 
+            Menu.SetChecked(addressCinema, scriptScene.IsCinema); 
         }
         return true; 
     } 
@@ -134,30 +134,30 @@ public class SlashComboMenuTool
     [MenuItem(address + "/" + "👾", false, 20)]
     private static void SetSceneForPixel()
     {
-        SetSceneForElement(groupTrackNames[0], () => targetScript.SetSlashPixel());
+        SetSceneForElement(groupTrackNames[0], () => scriptScene.SetSlashPixel());
     }
 
     [MenuItem(address + "/" + "🔥", false, 21)]
     private static void SetSceneForFire()
     {
-        SetSceneForElement(groupTrackNames[1], () => targetScript.SetSlashFire());
+        SetSceneForElement(groupTrackNames[1], () => scriptScene.SetSlashFire());
     }
 
     [MenuItem(address + "/" + "🌊", false, 22)]
     private static void SetSceneForWater()
     {
-        SetSceneForElement(groupTrackNames[2], () => targetScript.SetSlashWater());
+        SetSceneForElement(groupTrackNames[2], () => scriptScene.SetSlashWater());
     }
 
     [MenuItem(address + "/" + "⚡", false, 23)]
     private static void SetSceneForThunder()
     {
-        SetSceneForElement(groupTrackNames[3], () => targetScript.SetSlashThunder());
+        SetSceneForElement(groupTrackNames[3], () => scriptScene.SetSlashThunder());
     }
 
     [MenuItem(address + "/" + "🩸 *goofy", false, 24)]
     private static void SetSceneForCut()
     {
-        SetSceneForElement(groupTrackNames[4], () => targetScript.SetSlashCut());
+        SetSceneForElement(groupTrackNames[4], () => scriptScene.SetSlashCut());
     }
 }
