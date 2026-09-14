@@ -9,7 +9,7 @@ public class SlashComboMenuTool
     const string address = "⚙️/ENTREGA 2: Set scene for";
     const string addressCinema = address + "/🙌 ✋CINEMA✋";
     
-    static SceneActividad2Slash scriptScene;
+    static Scene_Ejercicio2Slash scriptScene;
     static PlayableDirector director;
 
     // Define the exact names of your parent Group Tracks here
@@ -26,7 +26,7 @@ public class SlashComboMenuTool
     
     static void GetRefs()
     {
-        scriptScene = Object.FindAnyObjectByType<SceneEntrega2SlashCombo>();
+        scriptScene = Object.FindAnyObjectByType<Scene_Ejercicio2Slash>();
         director = Object.FindAnyObjectByType<PlayableDirector>();
     }
 
