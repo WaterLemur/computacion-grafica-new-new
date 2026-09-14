@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Readme
   m_EditorClassIdentifier: 
   icon: {fileID: 2800000, guid: 727a75301c3d24613a3ebcec4a24c2c8, type: 3}
-  title: URP Empty Template
+  title: ℂ𝕠𝕞𝕡𝕦𝕥𝕒𝕔𝕚𝕠𝕟 𝔾𝕣𝕒𝕗𝕚𝕔𝕒
   sections:
-  - heading: Welcome to the Universal Render Pipeline
+  - heading: Welcome to the ℂ𝕠𝕞𝕡𝕦𝕥𝕒𝕔𝕚𝕠𝕟 𝔾𝕣𝕒𝕗𝕚𝕔𝕒
     text: This template includes the settings and assets you need to start creating with the Universal Render Pipeline.
     linkText: 
     url:

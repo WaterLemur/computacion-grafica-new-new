@@ -54,7 +54,7 @@ Material:
     - _DstBlendAlpha: 10
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SpeedMultiplier: 0.05
+    - _SpeedMultiplier: 0.01
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
     - _Surface: 1

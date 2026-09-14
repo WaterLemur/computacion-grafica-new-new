@@ -155,7 +155,7 @@ public class SlashComboMenuTool
         SetSceneForElement(groupTrackNames[3], () => targetScript.SetSlashThunder());
     }
 
-    [MenuItem(address + "/" + "🩸", false, 24)]
+    [MenuItem(address + "/" + "🩸 *goofy", false, 24)]
     private static void SetSceneForCut()
     {
         SetSceneForElement(groupTrackNames[4], () => targetScript.SetSlashCut());
