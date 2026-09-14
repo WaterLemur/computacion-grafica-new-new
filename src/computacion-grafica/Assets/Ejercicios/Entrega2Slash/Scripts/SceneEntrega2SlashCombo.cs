@@ -31,6 +31,13 @@ public class SceneEntrega2SlashCombo : Scene
     [SerializeField] GameObject wpnMasterShield;
     [SerializeField] GameObject wpnAirbenderStaff;
 
+    [Header("WEAPONS")]
+    [SerializeField] GameObject sfxPixel;
+    [SerializeField] GameObject sfxFire;
+    [SerializeField] GameObject sfxWater;
+    [SerializeField] GameObject sfxThunder;
+    [SerializeField] GameObject sfxCut;
+    
     [Header("PARENTS")]
     [SerializeField] GameObject fXParentObject;
     [SerializeField] GameObject cinemaParentObject;
@@ -78,6 +85,12 @@ public class SceneEntrega2SlashCombo : Scene
         wpnMasterSword.SetActive(false);
         wpnMasterShield.SetActive(false);
         wpnAirbenderStaff.SetActive(false);
+
+        sfxPixel.SetActive(false);
+        sfxFire.SetActive(false);
+        sfxWater.SetActive(false);
+        sfxThunder.SetActive(false);
+        sfxCut.SetActive(false);
         
         charKatara.SetActive(false);
         charToph.SetActive(false);
@@ -103,28 +116,34 @@ public class SceneEntrega2SlashCombo : Scene
 
         charRiven.SetActive(true);
         wpnBrokenBlade.SetActive(true);
-        
+        sfxPixel.SetActive(true);
 
         Debug.Log("SCENE: 👾 Pixel");
     }
     public void SetSlashFire()
     {
         DisableAll();
+
         EnableAnng();
+        sfxFire.SetActive(true);
 
         Debug.Log("SCENE: 🔥 Fire");
     }
     public void SetSlashWater()
     {
         DisableAll();
+
         EnableAnng();
+        sfxWater.SetActive(true);
 
         Debug.Log("SCENE: 🌊 Water");
     }
     public void SetSlashThunder()
     {
         DisableAll();
+
         EnableAnng();
+        sfxThunder.SetActive(true);
 
         Debug.Log("SCENE: ⚡ Thunder");
     }
@@ -135,6 +154,7 @@ public class SceneEntrega2SlashCombo : Scene
         charLink.SetActive(true);
         wpnMasterSword.SetActive(true);
         wpnMasterShield.SetActive(true);
+        sfxCut.SetActive(true);
 
         Debug.Log("SCENE: 🩸 Cut");
     }
