@@ -21,7 +21,7 @@ Lemus David Water
 
 
 ### Full
-<video src="res/entregas/2_slash/Entrega2Slash.webm" width="100%" controls></video>
+![Full](res/entregas/2_slash/Entrega2Slash.webm)
 
 ### Pixel
 <video src="res/entregas/2_slash/Entrega2Slash_Pixel.webm" width="100%" controls></video>
@@ -32,8 +32,7 @@ Lemus David Water
 ### Water
 <video src="res/entregas/2_slash/Entrega2Slash_Water.webm" width="100%" controls></video>
 
-### Thuder
-![Full](res/entregas/2_slash/Entrega2Slash_Thunder.webm)
+### Thunder
 <video src="res/entregas/2_slash/Entrega2Slash_Thunder.webm" width="100%" controls></video>
 
 ### Blood
@@ -53,7 +52,7 @@ Lemus David Water
 ### Water
 ![Full](res/entregas/2_slash/Entrega2Slash_Water.gif)
 
-### Thuder
+### Thunder
 ![Full](res/entregas/2_slash/Entrega2Slash_Thunder.gif)
 
 ### Blood
