@@ -42,6 +42,17 @@ public class Scene_Ejercicio2Slash : Scene
     [SerializeField] GameObject fXParentObject;
     [SerializeField] GameObject cinemaParentObject;
 
+    [Header("CAMERAS")]
+    [SerializeField] GameObject cam1;
+    [SerializeField] GameObject cam2;
+    [SerializeField] GameObject cam3;
+
+
+    public GameObject Cam1 => cam1;
+    public GameObject Cam2 => cam2;
+    public GameObject Cam3 => cam3;
+
+
     public GameObject FXParentObject
     {
         get => fXParentObject;
