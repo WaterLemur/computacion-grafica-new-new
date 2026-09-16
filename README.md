@@ -16,23 +16,28 @@ Lemus David Water
 
 ## Entrega 2 Slash
 
+[🔺 Youtube](https://youtu.be/QEpgM-P07Ec)
+
+
+
 ### Full
-![Full](res/entregas/2_slash/Entrega2Slash.webm)
+<video src="res/entregas/2_slash/Entrega2Slash.webm" width="100%" controls></video>
 
 ### Pixel
-![Full](res/entregas/2_slash/Entrega2Slash_Pixel.webm)
+<video src="res/entregas/2_slash/Entrega2Slash_Pixel.webm" width="100%" controls></video>
 
 ### Fire
-![Full](res/entregas/2_slash/Entrega2Slash_Fire.webm)
+<video src="res/entregas/2_slash/Entrega2Slash_Fire.webm" width="100%" controls></video>
 
 ### Water
-![Full](res/entregas/2_slash/Entrega2Slash_Water.webm)
+<video src="res/entregas/2_slash/Entrega2Slash_Water.webm" width="100%" controls></video>
 
 ### Thuder
 ![Full](res/entregas/2_slash/Entrega2Slash_Thunder.webm)
+<video src="res/entregas/2_slash/Entrega2Slash_Thunder.webm" width="100%" controls></video>
 
 ### Blood
-![Full](res/entregas/2_slash/Entrega2Slash_Blood.webm)
+<video src="res/entregas/2_slash/Entrega2Slash_Blood.webm" width="100%" controls></video>
 
 
 
