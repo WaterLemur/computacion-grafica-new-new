@@ -25,17 +25,17 @@ Lemus David Water
 ### Full
 ![Full](res/entregas/2_slash/Entrega2Slash.gif)
 
-### Pixel
+### 👾 Pixel
 ![Full](res/entregas/2_slash/Entrega2Slash_Pixel.gif)
 
-### Fire
+### 🔥 Fire
 ![Full](res/entregas/2_slash/Entrega2Slash_Fire.gif)
 
-### Water
+### 🌊 Water
 ![Full](res/entregas/2_slash/Entrega2Slash_Water.gif)
 
-### Thunder
+### ⚡ Thunder
 ![Full](res/entregas/2_slash/Entrega2Slash_Thunder.gif)
 
-### Blood
+### 🩸 Blood
 ![Full](res/entregas/2_slash/Entrega2Slash_Blood.gif)
