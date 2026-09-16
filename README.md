@@ -16,7 +16,7 @@ Lemus David Water
 
 ## Entrega 2 Slash
 
-[🔺 Youtube](https://youtu.be/QEpgM-P07Ec)
+[🔺 Youtube](https://youtu.be/y5p5pYzgy74)
 
 
 ### Full
