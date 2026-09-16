@@ -16,10 +16,10 @@ Lemus David Water
 
 ## Entrega 2 Slash
 
+![Entrega2Img](res/entregas/2_slash/Entrega2Slash.png)
 
 > [!CAUTION]
 > [🔺 Youtube](https://youtu.be/y5p5pYzgy74)
-
 
 
 ### Full
