@@ -70,7 +70,7 @@ Material:
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
     - _Surface: 1
-    - _TextureOffset: 1.21
+    - _TextureOffset: -0.83
     - _TimeMultiplier: 1.21
     - _ZTest: 4
     - _ZWrite: 0

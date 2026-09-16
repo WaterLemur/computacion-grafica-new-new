@@ -70,7 +70,7 @@ Material:
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
     - _Surface: 1
-    - _TextOffset: 0.33
+    - _TextOffset: 0.59
     - _TimeMultiplier: 1
     - _ZTest: 4
     - _ZWrite: 0
