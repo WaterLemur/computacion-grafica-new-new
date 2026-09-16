@@ -9,7 +9,7 @@ public abstract class Scene : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected virtual void Start()
     {
-        Text sceneInfo = GameObject.Find("SceneInfo").GetComponent<Text>();
+        Text sceneInfo = GameObject.Find("InfoScene").GetComponent<Text>();
         sceneInfo.text = SceneManager.GetActiveScene().name;
         
         if (!string.IsNullOrEmpty(info))
