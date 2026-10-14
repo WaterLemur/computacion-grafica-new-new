@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mat_Pointillism_Gradient_Texture
+  m_Name: Mat_08_Pointillism_Gradient_Texture
   m_Shader: {fileID: -6465566751694194690, guid: 054e9b78e8adaa175862d74fe6ab8dd4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0

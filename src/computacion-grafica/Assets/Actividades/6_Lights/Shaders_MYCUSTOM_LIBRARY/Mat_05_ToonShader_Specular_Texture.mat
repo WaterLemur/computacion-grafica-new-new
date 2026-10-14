@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mat_ToonShader_Specular_Texture
+  m_Name: Mat_05_ToonShader_Specular_Texture
   m_Shader: {fileID: -6465566751694194690, guid: d00130b40c50cf853830cc89008b3751, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
