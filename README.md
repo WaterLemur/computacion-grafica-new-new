@@ -45,6 +45,10 @@ Lemus David Water
 
 ![Entrega2Img](res/entregas/3_water/Entrega3Water.png)
 
+![Entrega2Img](res/entregas/3_water/Entrega3Water_r1.png)
+
+![Entrega2Img](res/entregas/3_water/Entrega3Water_r2.png)
+
 > [!CAUTION]
 > [🔺 Youtube](https://youtu.be/vvkRg7jM2wc)
-
+> [🔺 Correccion](https://youtu.be/0wIszJiKMGg)

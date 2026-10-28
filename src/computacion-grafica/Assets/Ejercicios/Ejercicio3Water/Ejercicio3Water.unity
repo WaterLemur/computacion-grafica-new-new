@@ -1399,7 +1399,7 @@ Light:
   serializedVersion: 13
   m_Type: 1
   m_Color: {r: 1, g: 0.7194855, b: 0.3443396, a: 1}
-  m_Intensity: 15
+  m_Intensity: 50
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1461,13 +1461,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.26745903, y: -0.7017223, z: 0.32721826, w: 0.57356757}
+  m_LocalRotation: {x: 0.05637797, y: -0.89820737, z: 0.41884097, w: 0.120902516}
   m_LocalPosition: {x: 0, y: 8.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 923350496}
-  m_LocalEulerAnglesHint: {x: 50, y: -101.477, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -164.668, z: 0}
 --- !u!114 &410087042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2887,8 +2887,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1864356956}
   - {fileID: 410087041}
+  - {fileID: 1864356956}
   - {fileID: 832575519}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4955,9 +4955,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 2a41ea111748382bd90278d1386e7bc1, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2a41ea111748382bd90278d1386e7bc1, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 3fe6cfb4c5a5117c596c227d070fb25c, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 2a41ea111748382bd90278d1386e7bc1, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5fca9d60afc9ffc9780159bc3a778e56, type: 2}
     - target: {fileID: 919132149155446097, guid: 2a41ea111748382bd90278d1386e7bc1, type: 3}
       propertyPath: m_Name
       value: SM_ENV_Pool2_Water
@@ -6100,9 +6108,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d1fca7f6afcc9ede5a1302eaa942518a, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d1fca7f6afcc9ede5a1302eaa942518a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 605020ce3a612ff698130c221182649f, type: 2}
+      objectReference: {fileID: 2100000, guid: 69991cc6d055e7094b768cca9ede6459, type: 2}
+    - target: {fileID: -7511558181221131132, guid: d1fca7f6afcc9ede5a1302eaa942518a, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5fca9d60afc9ffc9780159bc3a778e56, type: 2}
     - target: {fileID: 919132149155446097, guid: d1fca7f6afcc9ede5a1302eaa942518a, type: 3}
       propertyPath: m_Name
       value: SM_ENV_Pool1_Water
@@ -6243,6 +6259,7 @@ GameObject:
   - component: {fileID: 1864356956}
   - component: {fileID: 1864356958}
   - component: {fileID: 1864356957}
+  - component: {fileID: 1864356959}
   m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
@@ -6258,8 +6275,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864356955}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.62, y: 5.32, z: -0.863}
+  m_LocalRotation: {x: -0.023690782, y: 0.68834645, z: 0.046217382, w: 0.72352046}
+  m_LocalPosition: {x: -12.510002, y: 6.5000005, z: -1.5500005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6359,6 +6376,33 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!1773428102 &1864356959
+ParentConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864356955}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Weight: 1
+  m_TranslationAtRest: {x: -12.510002, y: 6.5, z: -1.5500005}
+  m_RotationAtRest: {x: -5.618756, y: 87.048935, z: 1.9730219}
+  m_TranslationOffsets:
+  - {x: 0.0680393, y: 1.9750519, z: 0.19442368}
+  m_RotationOffsets:
+  - {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_AffectRotationX: 1
+  m_AffectRotationY: 1
+  m_AffectRotationZ: 1
+  m_Active: 1
+  m_IsLocked: 1
+  m_Sources:
+  - sourceTransform: {fileID: 1270800317}
+    weight: 1
 --- !u!1001 &1868793668
 PrefabInstance:
   m_ObjectHideFlags: 0
