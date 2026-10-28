@@ -1,0 +1,10 @@
+{
+    "searchPaths": [
+        "Assets",
+        "Packages"
+    ],
+    "preprocessorDefinitions": {
+        "UNITY_COMPILER_HLSL": "1"
+    }
+}
+
