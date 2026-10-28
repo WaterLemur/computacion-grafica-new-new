@@ -16,6 +16,7 @@ void GetMainLight_float(float3 positionWS, out float3 directionWS, out float3 co
 	Light mainLight = GetMainLight(shadowCoord);
 
 	directionWS = mainLight.direction;
+	
 	color = mainLight.color;
 	shadowAttenuation = mainLight.shadowAttenuation;
 	#endif

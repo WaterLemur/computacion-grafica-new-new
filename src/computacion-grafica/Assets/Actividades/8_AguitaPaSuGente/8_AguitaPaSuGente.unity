@@ -716,7 +716,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2025493069}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e52bbd0c9be9505649a8867838ff887e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -775,6 +775,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e52bbd0c9be9505649a8867838ff887e, type: 3}
+--- !u!4 &234893756 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e52bbd0c9be9505649a8867838ff887e, type: 3}
+  m_PrefabInstance: {fileID: 234893755}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &239307735
 GameObject:
   m_ObjectHideFlags: 0
@@ -6918,6 +6923,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 234893756}
   - {fileID: 1408795816}
   - {fileID: 239307736}
   - {fileID: 301763411}
@@ -7371,4 +7377,3 @@ SceneRoots:
   - {fileID: 1175616793}
   - {fileID: 923350496}
   - {fileID: 2025493069}
-  - {fileID: 234893755}
