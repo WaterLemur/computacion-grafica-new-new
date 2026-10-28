@@ -41,12 +41,15 @@ Lemus David Water
 ![Full](res/entregas/2_slash/Entrega2Slash_Blood.gif)
 
 
-## Entrega 3 Water
+## Entrega 3 Water 💧💦🌊
 
+💧
 ![Entrega2Img](res/entregas/3_water/Entrega3Water.png)
 
+💦
 ![Entrega2Img](res/entregas/3_water/Entrega3Water_r1.png)
 
+🌊
 ![Entrega2Img](res/entregas/3_water/Entrega3Water_r2.png)
 
 > [!CAUTION]
