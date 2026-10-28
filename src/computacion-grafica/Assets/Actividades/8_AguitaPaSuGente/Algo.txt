@@ -1,0 +1,30 @@
+{L = [(D * cD) + (E * cE) + (T * cT)]}
+L = (D*cD) + [E*cE] + {T*cT}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+En objetos solidos comunes:
+
+	(D * cD) => Lambert
+				Half-Lambert
+				Oren-Nayer
+				Burley
+	
+	[E * cE] => Phong
+				Blinn-Phong
+				Cock-Tarrace
+				GGX
+	
+	{T * cT} => 0
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+En objetos solidos comunes:
+
+	(D * cD) => 0
+	
+	[E * cE] => Phong
+				Blinn-Phong
+				Cock-Tarrace
+				GGX
+	
+	{T * cT} => Ley Snell
+				Beer-Lambert: Dispercion - Absorcion

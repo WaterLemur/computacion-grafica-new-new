@@ -8,7 +8,7 @@
 void GetMainLight_float(float3 positionWS, out float3 directionWS, out float3 color, out float shadowAttenuation)
 {
 	#if defined(SHADERGRAPH_PREVIEW)
-	directionWS = float3(-1, 1, -1);
+	directionWS = float3(1, 1, 0);
 	color = 1;
 	shadowAttenuation = 1;
 	#else

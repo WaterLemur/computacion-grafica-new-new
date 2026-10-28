@@ -861,7 +861,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &307156373
 Transform:
   m_ObjectHideFlags: 0
@@ -4946,9 +4946,13 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 2a41ea111748382bd90278d1386e7bc1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2a41ea111748382bd90278d1386e7bc1, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: -876546973899608171, guid: dc3deb8308b4717879b1d23cddabf6f1, type: 3}
+      objectReference: {fileID: 2100000, guid: 582f05183ce1c9f38bc9dcc27ad27934, type: 2}
     - target: {fileID: 919132149155446097, guid: 2a41ea111748382bd90278d1386e7bc1, type: 3}
       propertyPath: m_Name
       value: SM_ENV_Pool2_Water
@@ -6093,7 +6097,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d1fca7f6afcc9ede5a1302eaa942518a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: -876546973899608171, guid: dc3deb8308b4717879b1d23cddabf6f1, type: 3}
+      objectReference: {fileID: 2100000, guid: 7e85942da8d5a8219ab3f07136d66db4, type: 2}
     - target: {fileID: 919132149155446097, guid: d1fca7f6afcc9ede5a1302eaa942518a, type: 3}
       propertyPath: m_Name
       value: SM_ENV_Pool1_Water
