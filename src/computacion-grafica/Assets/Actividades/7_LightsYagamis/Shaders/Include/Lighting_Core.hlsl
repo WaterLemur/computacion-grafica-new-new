@@ -64,4 +64,44 @@ void SimpleLightAdditional_float(float2 UVSS, float3 normalWS, float3 viewDirWS,
 	LIGHT_LOOP_END
 	#endif
 }
+
+void BlinnPhongAdditional_float(float2 UVSS, float3 normalWS, float3 viewDirWS, float3 positionWS, float roughness, out float3 lit)
+{
+	#if defined(SHADERGRAPH_PREVIEW)
+	lit = 0;
+	
+	#else
+	uint additionalLightCount = GetAdditionalLightsCount();
+	
+	#ifdef USE_CLUSTER_LIGHT_LOOP
+	InputData inputData = (InputData)0;
+	inputData.normalizedScreenSpaceUV = UVSS;
+	inputData.positionWS = positionWS;
+	inputData.normalWS = normalWS;
+	#endif
+	
+	lit = 0;
+	LIGHT_LOOP_BEGIN(additionalLightCount)
+	Light light = GetAdditionalLight(lightIndex, positionWS, 1);
+	//TODO get additional light index
+	
+	//Blinn-Phong
+	float3 h = normalize(viewDirWS + light.direction);
+	float blinnPhong = max(dot(h, normalWS), 0);
+	float specularPower = lerp(200, 1, roughness);
+	float specularCoefficiet = pow(1 - roughness, 2);
+	
+	//Blinn-Phong to Specular
+	float3 specular = pow(blinnPhong, specularPower) 
+							* specularCoefficiet 
+							* light.color 
+							* light.distanceAttenuation 
+							* light.shadowAttenuation;
+	
+	//Combined
+	lit += specular;
+	
+	LIGHT_LOOP_END
+	#endif
+}
 #endif

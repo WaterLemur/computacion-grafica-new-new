@@ -1082,8 +1082,8 @@
     "m_ObjectId": "14cf403670ab470d88e84a3dd44afae3",
     "m_Title": "Lambert (Diffuse)",
     "m_Position": {
-        "x": 249.00001525878907,
-        "y": -624.9998779296875
+        "x": 249.0,
+        "y": -625.0
     }
 }
 
@@ -1286,8 +1286,8 @@
     "m_ObjectId": "258c50808ff6415285366b6bcf890f8e",
     "m_Title": "H",
     "m_Position": {
-        "x": -516.0,
-        "y": 760.0001220703125
+        "x": -516.0001220703125,
+        "y": 760.000244140625
     }
 }
 
@@ -1976,7 +1976,7 @@
     },
     "m_SourceType": 0,
     "m_FunctionName": "SimpleLightAdditional",
-    "m_FunctionSource": "d718cdbf9bdceba479f00d9ab341ae91",
+    "m_FunctionSource": "0a6a17726efc0b26987fd9f42f104775",
     "m_FunctionSourceUsePragmas": true,
     "m_FunctionBody": "Enter function body here..."
 }
@@ -3950,8 +3950,8 @@
     "m_ObjectId": "c3907ab52af347bd9db9f19e779a3b84",
     "m_Title": "Additional lights",
     "m_Position": {
-        "x": 1886.9998779296875,
-        "y": -824.9998779296875
+        "x": 1887.0001220703125,
+        "y": -825.0
     }
 }
 
@@ -4981,8 +4981,8 @@
     "m_ObjectId": "efef4e96a6294457b183dd7d83b6d7b0",
     "m_Title": "Blinn-Phong (Specular)",
     "m_Position": {
-        "x": -1089.0,
-        "y": 355.0001220703125
+        "x": -1089.0001220703125,
+        "y": 355.000244140625
     }
 }
 
