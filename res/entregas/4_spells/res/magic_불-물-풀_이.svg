@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="1024"
+   viewBox="0 0 270.93333 270.93333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="magic_불-물-풀_이.svg"
+   inkscape:export-filename="sprites/new/magic_불_text.png"
+   inkscape:export-xdpi="48"
+   inkscape:export-ydpi="48"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.36378353"
+     inkscape:cx="314.74762"
+     inkscape:cy="563.52194"
+     inkscape:window-width="1238"
+     inkscape:window-height="684"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="18"
+       spacingy="18"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+    <inkscape:grid
+       id="grid2"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="13.5"
+       spacingy="13.5"
+       empcolor="#e50000"
+       empopacity="0.30196078"
+       color="#e50000"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="-217.16212"
+       y="639.11636"
+       width="260.95879"
+       height="267.81915"
+       id="rect5" />
+    <rect
+       x="-233.25085"
+       y="678.37121"
+       width="198.26322"
+       height="106.90664"
+       id="rect4" />
+    <rect
+       x="-217.16212"
+       y="639.11633"
+       width="196.8148"
+       height="210.47832"
+       id="rect5-4" />
+    <rect
+       x="-217.16212"
+       y="639.11636"
+       width="238.04812"
+       height="262.70718"
+       id="rect3" />
+    <rect
+       x="-217.16212"
+       y="639.11636"
+       width="195.42852"
+       height="223.09251"
+       id="rect6" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="배경"
+     inkscape:highlight-color="#ff00ff"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#000000;stroke-width:0.264583"
+       id="rect1"
+       width="269.83194"
+       height="271.28656"
+       x="0"
+       y="-0.72730982"
+       inkscape:label="검은색 "
+       inkscape:highlight-color="#000000" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="하나"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <g
+       inkscape:groupmode="layer"
+       id="layer5"
+       inkscape:label="디폴트"
+       inkscape:highlight-color="#808080"
+       style="display:inline"
+       sodipodi:insensitive="true">
+      <ellipse
+         style="display:inline;fill:none;stroke:#ffffff;stroke-width:2.94;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="ellipse5"
+         cx="135.46147"
+         cy="135.10349"
+         inkscape:label="원6"
+         rx="60.290737"
+         ry="60.457233" />
+      <ellipse
+         style="display:inline;fill:none;stroke:#ffffff;stroke-width:1.87259;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="ellipse6"
+         cx="135.46146"
+         cy="135.10349"
+         inkscape:label="원4"
+         rx="89.986885"
+         ry="90.23539" />
+      <ellipse
+         style="display:inline;fill:none;stroke:#ffffff;stroke-width:1.94653;stroke-dasharray:1.94653, 1.94653;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+         id="ellipse3"
+         cx="135.46146"
+         cy="135.10349"
+         inkscape:label="원3"
+         rx="93.5401"
+         ry="93.798416" />
+      <ellipse
+         style="display:inline;fill:none;stroke:#ffffff;stroke-width:10.9938;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="ellipse2"
+         inkscape:label="원2"
+         ry="105.95213"
+         rx="105.66035"
+         cy="135.10349"
+         cx="135.46146" />
+      <ellipse
+         style="display:none;fill:none;stroke:#ffffff;stroke-width:3.45263;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse1"
+         cx="135.46146"
+         cy="135.10349"
+         inkscape:label="원0"
+         rx="133.74263"
+         ry="134.11197" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer12"
+     inkscape:label="둘"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <ellipse
+       style="display:inline;fill:none;stroke:#ffffff;stroke-width:1.143;stroke-dasharray:4.572, 2.286, 1.143, 2.286;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="ellipse4"
+       cx="135.46153"
+       cy="135.10349"
+       inkscape:label="원5"
+       rx="63.486336"
+       ry="63.661655" />
+    <ellipse
+       style="display:inline;fill:none;stroke:#ffffff;stroke-width:2.5;stroke-dasharray:7.5, 7.5;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path1"
+       cx="135.46146"
+       cy="135.10349"
+       inkscape:label="원1"
+       rx="120.13693"
+       ry="120.4687" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer14"
+     inkscape:label="넷"
+     inkscape:highlight-color="#b1b5ad"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <g
+       inkscape:groupmode="layer"
+       id="layer8"
+       inkscape:label="별"
+       inkscape:highlight-color="#ffff00"
+       style="display:inline">
+      <path
+         sodipodi:type="star"
+         style="display:inline;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:12.5;stroke-dasharray:none;stroke-opacity:0.33;paint-order:stroke fill markers"
+         id="path3"
+         inkscape:flatsided="false"
+         sodipodi:sides="5"
+         sodipodi:cx="133.82501"
+         sodipodi:cy="135.27963"
+         sodipodi:r1="75.898537"
+         sodipodi:r2="37.949268"
+         sodipodi:arg1="-0.32175055"
+         sodipodi:arg2="0.30656798"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 205.82869,111.27841 -35.8238,35.45387 8.897,49.61013 -44.7888,-23.1146 -44.432708,23.79192 8.142793,-49.73949 -36.357925,-34.90591 49.82132,-7.62609 21.96228,-45.364957 22.64848,45.026297 z"
+         inkscape:transform-center-x="0.11783485"
+         inkscape:transform-center-y="-7.1355062"
+         transform="rotate(0.14708832,134.55284,701.9018)"
+         inkscape:label="⭐" />
+      <path
+         style="display:inline;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:5.10285;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         d="m 100.70447,182.62904 90.85257,-66.64119 -112.906485,1.19857 92.770295,65.44262 -36.1972,-107.392998 z"
+         id="path4"
+         inkscape:label="✡️" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer13"
+     inkscape:label=" 셋"
+     inkscape:highlight-color="#b1b5ad"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <g
+       inkscape:groupmode="layer"
+       id="layer7"
+       inkscape:label="작은 원"
+       inkscape:highlight-color="#808080"
+       style="display:inline">
+      <circle
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.112;stroke-dasharray:none;stroke-dashoffset:1.55575;stroke-opacity:1"
+         id="circle8"
+         cx="135.05215"
+         cy="34.969425"
+         r="34.884411"
+         inkscape:label="bg"
+         inkscape:highlight-color="#000000"
+         mask="none"
+         clip-path="none" />
+      <circle
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2.89194;stroke-dasharray:3.18113;stroke-dashoffset:1.44597;stroke-opacity:1"
+         id="circle7"
+         cx="135.05215"
+         cy="34.969425"
+         r="32.422768"
+         inkscape:label="bg" />
+      <circle
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2.54064;stroke-dasharray:none;stroke-dashoffset:1.27032;stroke-opacity:1"
+         id="path2"
+         cx="135.05215"
+         cy="34.969425"
+         r="28.484148"
+         inkscape:label="bg"
+         clip-path="none" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer15"
+     inkscape:label="다섯"
+     inkscape:highlight-color="#ff00ff"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <g
+       inkscape:groupmode="layer"
+       id="layer9"
+       inkscape:label="작은작은 원"
+       inkscape:highlight-color="#ff00ff"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <circle
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.519;stroke-dasharray:none;stroke-dashoffset:2.7869;stroke-opacity:1"
+         id="circle6"
+         cx="242.44116"
+         cy="26.228056"
+         r="23.431299"
+         inkscape:label="bg" />
+      <circle
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2.882;stroke-dasharray:3.17019;stroke-dashoffset:3.4584;stroke-opacity:1"
+         id="path2-8"
+         cx="242.44116"
+         cy="26.2229"
+         r="21.099237"
+         inkscape:label="bg" />
+      <circle
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.576427;stroke-dasharray:none;stroke-dashoffset:2.7869;stroke-opacity:1"
+         id="circle5"
+         cx="242.44116"
+         cy="26.228056"
+         r="18.775259"
+         inkscape:label="bg" />
+      <path
+         sodipodi:type="star"
+         style="display:none;fill:none;stroke:#ffffff;stroke-width:3.26919;stroke-dasharray:none;stroke-dashoffset:3.4584;stroke-opacity:1"
+         id="path6"
+         inkscape:flatsided="true"
+         sodipodi:sides="3"
+         sodipodi:cx="243.10332"
+         sodipodi:cy="26.728636"
+         sodipodi:r1="18.111694"
+         sodipodi:r2="9.0558472"
+         sodipodi:arg1="-1.5707963"
+         sodipodi:arg2="-0.52359878"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 243.10332,8.6169415 15.68518,27.1675415 -31.37037,0 z"
+         inkscape:transform-center-y="-2.8624958"
+         transform="matrix(0.63218732,0,0,0.63218732,88.689175,9.4674767)"
+         inkscape:label="△"
+         inkscape:highlight-color="#ff0000" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="물"
+     inkscape:highlight-color="#0000ff"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <path
+       sodipodi:type="star"
+       style="display:inline;fill:none;stroke:#ffffff;stroke-width:3.26919;stroke-dasharray:none;stroke-dashoffset:3.4584;stroke-opacity:0.329412"
+       id="path14"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="243.10332"
+       sodipodi:cy="26.728636"
+       sodipodi:r1="18.111694"
+       sodipodi:r2="9.0558472"
+       sodipodi:arg1="-1.5707963"
+       sodipodi:arg2="-0.52359878"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 243.10332,8.6169415 15.68518,27.1675415 -31.37037,0 z"
+       inkscape:transform-center-y="18.883587"
+       transform="matrix(-4.1704768,2.2653184e-8,-2.2653184e-8,-4.1704768,1148.9545,246.2439)"
+       inkscape:label="▽"
+       inkscape:highlight-color="#0000ff"
+       inkscape:transform-center-x="5.7525617e-05" />
+    <path
+       sodipodi:type="star"
+       style="display:inline;fill:none;stroke:#ffffff;stroke-width:3.26919;stroke-dasharray:none;stroke-dashoffset:3.4584;stroke-opacity:1"
+       id="path7"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="243.10332"
+       sodipodi:cy="26.728636"
+       sodipodi:r1="18.111694"
+       sodipodi:r2="9.0558472"
+       sodipodi:arg1="-1.5707963"
+       sodipodi:arg2="-0.52359878"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 243.10332,8.6169415 15.68518,27.1675415 -31.37037,0 z"
+       inkscape:transform-center-y="12.46975"
+       transform="matrix(1.3769859,-2.3850095,2.3850095,1.3769859,-263.40001,677.77151)"
+       inkscape:label="▽"
+       inkscape:highlight-color="#0000ff"
+       inkscape:transform-center-x="-3.3839132e-05" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,172.48297,-165.58995)"
+       id="text5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:166.667px;font-family:'Noto Kufi Arabic';-inkscape-font-specification:'Noto Kufi Arabic';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect6);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:18.8976;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:0.33;paint-order:normal"
+       inkscape:label="text"><tspan
+         x="-217.16211"
+         y="806.61753"
+         id="tspan8"><tspan
+           style="font-family:Orbit;-inkscape-font-specification:Orbit"
+           id="tspan7">물</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="풀"
+     inkscape:highlight-color="#00ff00"
+     style="display:none"
+     transform="translate(-0.63639609,-1.1818785)"
+     sodipodi:insensitive="true">
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:6.1;stroke-dasharray:none;stroke-opacity:0.329412"
+       d="M 45.736175,134.74285 H 225.14176"
+       id="path13"
+       inkscape:label="―"
+       transform="translate(0.63639609,1.1818785)"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:type="star"
+       style="display:inline;fill:none;stroke:#ffffff;stroke-width:3.26919;stroke-dasharray:none;stroke-dashoffset:3.4584;stroke-opacity:0.329412"
+       id="path12"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="243.10332"
+       sodipodi:cy="26.728636"
+       sodipodi:r1="18.111694"
+       sodipodi:r2="9.0558472"
+       sodipodi:arg1="-1.5707963"
+       sodipodi:arg2="-0.52359878"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 243.10332,8.6169415 15.68518,27.1675415 -31.37037,0 z"
+       inkscape:transform-center-y="18.883587"
+       transform="matrix(-4.1704768,2.2653184e-8,-2.2653184e-8,-4.1704768,1149.5909,247.42578)"
+       inkscape:label="🜃"
+       inkscape:highlight-color="#00ff00"
+       inkscape:transform-center-x="5.7525617e-05" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:4.4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 74.828568,134.74285 H 195.68571"
+       id="path10"
+       transform="translate(0.63639609,1.1818785)"
+       inkscape:label="―" />
+    <path
+       sodipodi:type="star"
+       style="display:inline;fill:none;stroke:#ffffff;stroke-width:3.26919;stroke-dasharray:none;stroke-dashoffset:3.4584;stroke-opacity:1"
+       id="path8"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="243.10332"
+       sodipodi:cy="26.728636"
+       sodipodi:r1="18.111694"
+       sodipodi:r2="9.0558472"
+       sodipodi:arg1="-1.5707963"
+       sodipodi:arg2="-0.52359878"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 243.10332,8.6169415 15.68518,27.1675415 -31.37037,0 z"
+       inkscape:transform-center-y="12.46975"
+       transform="matrix(1.3769859,-2.3850095,2.3850095,1.3769859,-262.76361,678.95339)"
+       inkscape:label="🜃"
+       inkscape:highlight-color="#00ff00"
+       inkscape:transform-center-x="-3.3839132e-05" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,173.02846,-164.49899)"
+       id="text3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:166.667px;font-family:'Noto Kufi Arabic';-inkscape-font-specification:'Noto Kufi Arabic';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:18.8976;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:0.33;paint-order:normal"
+       inkscape:label="text"><tspan
+         x="-217.16211"
+         y="806.61753"
+         id="tspan10"><tspan
+           style="font-family:Orbit;-inkscape-font-specification:Orbit"
+           id="tspan9">풀</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="불"
+     inkscape:highlight-color="#ff0000"
+     style="display:inline;fill:#000000"
+     sodipodi:insensitive="true">
+    <path
+       sodipodi:type="star"
+       style="display:none;fill:none;stroke:#ffffff;stroke-width:3.26919;stroke-dasharray:none;stroke-dashoffset:3.4584;stroke-opacity:0.329412"
+       id="path11"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="243.10332"
+       sodipodi:cy="26.728636"
+       sodipodi:r1="18.111694"
+       sodipodi:r2="9.0558472"
+       sodipodi:arg1="-1.5707963"
+       sodipodi:arg2="-0.52359878"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 243.10332,8.6169415 15.68518,27.1675415 -31.37037,0 z"
+       inkscape:transform-center-y="-18.883585"
+       transform="matrix(4.1704769,0,0,4.1704769,-878.7589,23.301622)"
+       inkscape:label="△big"
+       inkscape:highlight-color="#ff0000"
+       inkscape:transform-center-x="-2.0539008e-05" />
+    <path
+       sodipodi:type="star"
+       style="display:inline;fill:none;stroke:#ffffff;stroke-width:3.26919;stroke-dasharray:none;stroke-dashoffset:3.4584;stroke-opacity:1"
+       id="path5"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="243.10332"
+       sodipodi:cy="26.728636"
+       sodipodi:r1="18.111694"
+       sodipodi:r2="9.0558472"
+       sodipodi:arg1="-1.5707963"
+       sodipodi:arg2="-0.52359878"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 243.10332,8.6169415 15.68518,27.1675415 -31.37037,0 z"
+       inkscape:transform-center-y="-12.469763"
+       transform="matrix(2.7539716,0,0,2.7539716,-534.4018,61.16287)"
+       inkscape:label="△small"
+       inkscape:highlight-color="#ff0000"
+       inkscape:transform-center-x="-1.7845633e-05" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,172.57389,-165.86269)"
+       id="text4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:166.667px;font-family:'Noto Kufi Arabic';-inkscape-font-specification:'Noto Kufi Arabic';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5);display:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:18.8976;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:0.33;paint-order:normal"
+       inkscape:label="text"><tspan
+         x="-217.16211"
+         y="806.61753"
+         id="tspan12"><tspan
+           style="font-family:Orbit;-inkscape-font-specification:Orbit"
+           id="tspan11">불</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:label="참고"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     inkscape:highlight-color="#ff00ff"
+     sodipodi:insensitive="true" />
+</svg>
