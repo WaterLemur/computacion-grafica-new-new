@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 
 namespace Ejercicio4
@@ -22,6 +23,11 @@ namespace Ejercicio4
         [Header("REFERENCES")]
         [SerializeField] Animator animWizard;
         [SerializeField] Animator animStaff;
+
+        [Header("SPELLS")]
+        [SerializeField] GameObject meteor;
+        [SerializeField] GameObject earthquake;
+
 
         public static Wizard W { get; private set; }
 
@@ -48,11 +54,35 @@ namespace Ejercicio4
         }
 
 
-        public void OnCastSpell()
+        public void CastSpell()
         {
             Debug.Log("Casting spell");
             animWizard.SetTrigger("Charge");
             animStaff.SetTrigger("Charge");
+        }
+
+        public void OnMeteor(InputAction.CallbackContext ctx)
+        {
+            if (ctx.started)
+            {
+                CastSpell();
+                GameObject go = Instantiate(meteor);
+                go.GetComponentInChildren<Animator>().SetTrigger("Play");
+            }
+        }
+        public void OnBlizzard()
+        {
+            CastSpell();
+        }
+        public void OnEarthquake(InputAction.CallbackContext ctx)
+        {
+            if (ctx.started)
+            {
+                CastSpell();
+                GameObject go = Instantiate(earthquake);
+                go.GetComponentInChildren<Animator>().SetTrigger("Play");
+
+            }
         }
 
 
