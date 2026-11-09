@@ -35,6 +35,10 @@ namespace Ejercicio4
         [SerializeField] GameObject 불;
         [SerializeField] GameObject 물;
         [SerializeField] GameObject 풀;
+        [Space(5)]
+        [SerializeField] GameObject 원불;
+        [SerializeField] GameObject 원물;
+        [SerializeField] GameObject 원풀;
 
 
         public static Wizard W { get; private set; }
@@ -74,8 +78,12 @@ namespace Ejercicio4
             if (ctx.started)
             {
                 ClearParent();
-                
                 CastSpell();
+
+                Transform circlePos = animWizard.gameObject.transform;
+                GameObject c = Instantiate(원불, circlePos);
+                c.transform.parent = spellParent;
+
                 GameObject go = Instantiate(불, SpellSpawnPoint);
                 go.transform.parent = spellParent;
                 go.GetComponentInChildren<Animator>().SetTrigger("Play");
@@ -86,8 +94,12 @@ namespace Ejercicio4
             if (ctx.started)
             {
                 ClearParent();
-
                 CastSpell();
+
+                Transform circlePos = animWizard.gameObject.transform;
+                GameObject c = Instantiate(원불, circlePos);
+                c.transform.parent = spellParent;
+
                 GameObject go = Instantiate(물, SpellSpawnPoint);
                 go.transform.parent = spellParent;
             }
@@ -97,12 +109,15 @@ namespace Ejercicio4
             if (ctx.started)
             {
                 ClearParent();
-
                 CastSpell();
+
+                Transform circlePos = animWizard.gameObject.transform;
+                GameObject c = Instantiate(원풀, circlePos);
+                c.transform.parent = spellParent;
+
                 GameObject go = Instantiate(풀, SpellSpawnPoint);
                 go.transform.parent = spellParent;
                 go.GetComponentInChildren<Animator>().SetTrigger("Play");
-
             }
         }
 
