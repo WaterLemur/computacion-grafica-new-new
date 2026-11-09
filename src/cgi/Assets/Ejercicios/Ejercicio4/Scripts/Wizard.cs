@@ -23,10 +23,14 @@ namespace Ejercicio4
         [Header("REFERENCES")]
         [SerializeField] Animator animWizard;
         [SerializeField] Animator animStaff;
+        [Space(5)]
+        [SerializeField] Transform spellParent;
+        [SerializeField] Transform SpellSpawnPoint;
 
         [Header("SPELLS")]
-        [SerializeField] GameObject meteor;
-        [SerializeField] GameObject earthquake;
+        [SerializeField] GameObject 불;
+        [SerializeField] GameObject 물;
+        [SerializeField] GameObject 풀;
 
 
         public static Wizard W { get; private set; }
@@ -65,23 +69,44 @@ namespace Ejercicio4
         {
             if (ctx.started)
             {
+                ClearParent();
+                
                 CastSpell();
-                GameObject go = Instantiate(meteor);
+                GameObject go = Instantiate(불, SpellSpawnPoint);
+                go.transform.parent = spellParent;
                 go.GetComponentInChildren<Animator>().SetTrigger("Play");
             }
         }
-        public void OnBlizzard()
+        public void OnBlizzard(InputAction.CallbackContext ctx)
         {
-            CastSpell();
+            if (ctx.started)
+            {
+                ClearParent();
+
+                CastSpell();
+                GameObject go = Instantiate(물, SpellSpawnPoint);
+                go.transform.parent = spellParent;
+            }
         }
         public void OnEarthquake(InputAction.CallbackContext ctx)
         {
             if (ctx.started)
             {
+                ClearParent();
+
                 CastSpell();
-                GameObject go = Instantiate(earthquake);
+                GameObject go = Instantiate(풀, SpellSpawnPoint);
+                go.transform.parent = spellParent;
                 go.GetComponentInChildren<Animator>().SetTrigger("Play");
 
+            }
+        }
+
+        void ClearParent()
+        {
+            foreach (Transform child in spellParent)
+            {
+                Destroy(child.gameObject);
             }
         }
 

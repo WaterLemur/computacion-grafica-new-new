@@ -31,7 +31,7 @@ namespace Ejercicio4
             for (int i = 0; i < count; i++)
             {
                 ParticleSystem.Particle p = particles[i];
-
+                
                 if (p.remainingLifetime <= groundShatterTime)
                 {
                     ground.SetTrigger("Shatter");

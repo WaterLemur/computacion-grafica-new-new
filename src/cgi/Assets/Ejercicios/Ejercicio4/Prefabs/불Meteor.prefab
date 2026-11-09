@@ -695,14 +695,14 @@ ParticleSystem:
         m_RotationOrder: 4
   ShapeModule:
     serializedVersion: 6
-    enabled: 0
-    type: 0
+    enabled: 1
+    type: 12
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: 0, y: 0, z: 0}
+    m_Position: {x: 0, y: 50, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
     m_Scale: {x: 1, y: 1, z: 1}
     placementMode: 0
@@ -1581,11 +1581,11 @@ ParticleSystem:
     flipU: 0
     flipV: 0
   VelocityModule:
-    enabled: 0
+    enabled: 1
     x:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 0
+      minMaxState: 1
+      scalar: 25
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -1637,30 +1637,30 @@ ParticleSystem:
         m_RotationOrder: 4
     y:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 0
+      minMaxState: 1
+      scalar: 65
       minScalar: 0
       maxCurve:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0
+          value: -0.8666611
           inSlope: 0
-          outSlope: 0
-          tangentMode: 0
+          outSlope: -0.5491358
+          tangentMode: 1
           weightedMode: 0
           inWeight: 0.33333334
-          outWeight: 0.33333334
+          outWeight: 0.28198433
         - serializedVersion: 3
-          time: 1
+          time: 0.2301869
           value: 0
-          inSlope: 0
+          inSlope: 9.465729
           outSlope: 0
-          tangentMode: 0
+          tangentMode: 1
           weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
+          inWeight: 0.18537858
+          outWeight: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
@@ -1690,8 +1690,8 @@ ParticleSystem:
         m_RotationOrder: 4
     z:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 0
+      minMaxState: 1
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -2009,7 +2009,7 @@ ParticleSystem:
     orbitalOffsetZ:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 10
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -4953,7 +4953,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7549426512722962130}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4970,7 +4970,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7549426512722962130}
   serializedVersion: 8
-  lengthInSec: 1
+  lengthInSec: 5
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -5045,7 +5045,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -9779,7 +9779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpellMeteor
   rock: {fileID: 4604424964225271104}
   ground: {fileID: 3523317956995262836}
-  groundShatterTime: 0.5
+  groundShatterTime: 4.25
 --- !u!1001 &7030051579868058853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9806,7 +9806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8c3bbdfd84e43aff0a028abe7995a9c7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.09
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8c3bbdfd84e43aff0a028abe7995a9c7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9840,10 +9840,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6383559725889938425, guid: 8c3bbdfd84e43aff0a028abe7995a9c7, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2b0c6d10e2d33eeec92d081a97519eb4, type: 2}
     - target: {fileID: 919132149155446097, guid: 8c3bbdfd84e43aff0a028abe7995a9c7, type: 3}
       propertyPath: m_Name
       value: spells_meteor_ground
       objectReference: {fileID: 0}
+    - target: {fileID: 3894855209472675081, guid: 8c3bbdfd84e43aff0a028abe7995a9c7, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f9dc3bed74b38341ba9cfc4f54eac8ef, type: 2}
     - target: {fileID: 5866666021909216657, guid: 8c3bbdfd84e43aff0a028abe7995a9c7, type: 3}
       propertyPath: m_Controller
       value: 
