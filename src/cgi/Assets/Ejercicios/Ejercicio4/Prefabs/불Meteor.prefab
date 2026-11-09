@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 1778643271563884657}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.49034, y: 0, z: -0.91427}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -73,7 +73,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7491123693935835722}
   serializedVersion: 8
-  lengthInSec: 1
+  lengthInSec: 5
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -148,7 +148,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -4937,6 +4937,7 @@ GameObject:
   - component: {fileID: 5119808935250680726}
   - component: {fileID: 642958871972280905}
   - component: {fileID: 3390278741531651729}
+  - component: {fileID: 802529860368490073}
   m_Layer: 0
   m_Name: "\uBD88Meteor"
   m_TagString: Untagged
@@ -9764,6 +9765,21 @@ ParticleSystemRenderer:
   m_MeshWeighting1: 1
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
+--- !u!114 &802529860368490073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7549426512722962130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3623ce4a70e36645899ca5805e7e7928, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpellMeteor
+  rock: {fileID: 4604424964225271104}
+  ground: {fileID: 3523317956995262836}
+  groundShatterTime: 0.5
 --- !u!1001 &7030051579868058853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9786,15 +9802,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8c3bbdfd84e43aff0a028abe7995a9c7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.4792
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8c3bbdfd84e43aff0a028abe7995a9c7, type: 3}
-      propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8c3bbdfd84e43aff0a028abe7995a9c7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c3bbdfd84e43aff0a028abe7995a9c7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.216
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8c3bbdfd84e43aff0a028abe7995a9c7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9837,6 +9853,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c3bbdfd84e43aff0a028abe7995a9c7, type: 3}
+--- !u!95 &3523317956995262836 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 8c3bbdfd84e43aff0a028abe7995a9c7, type: 3}
+  m_PrefabInstance: {fileID: 7030051579868058853}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7351418131107607310 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8c3bbdfd84e43aff0a028abe7995a9c7, type: 3}

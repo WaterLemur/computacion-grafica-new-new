@@ -49907,7 +49907,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1482670413
 Transform:
   m_ObjectHideFlags: 0
@@ -94040,6 +94040,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1086542287}
     m_Modifications:
+    - target: {fileID: 642958871972280905, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1426762771647753248, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
@@ -94095,6 +94099,10 @@ PrefabInstance:
     - target: {fileID: 4604424964225271104, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604424964225271104, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4604424964225271104, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
       propertyPath: VelocityModule.orbitalOffsetY.scalar
@@ -94214,7 +94222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7549426512722962130, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -94238,7 +94246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &6415354299646265369
 ParticleSystemRenderer:
   serializedVersion: 7
