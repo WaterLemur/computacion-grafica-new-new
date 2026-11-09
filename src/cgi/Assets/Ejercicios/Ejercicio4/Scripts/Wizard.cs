@@ -26,6 +26,10 @@ namespace Ejercicio4
         [Space(5)]
         [SerializeField] Transform spellParent;
         [SerializeField] Transform SpellSpawnPoint;
+        [Space(5)]
+        [SerializeField] Transform cam;
+        [SerializeField] Transform camPosWiz;
+        [SerializeField] Transform camPosSpell;
 
         [Header("SPELLS")]
         [SerializeField] GameObject 불;
@@ -116,11 +120,20 @@ namespace Ejercicio4
             switch (state)
             {
                 case State.Idle:
+                    cam.position = camPosWiz.position;
+                    cam.rotation = camPosWiz.rotation;
                     break;
+
+
                 case State.Charging:
                     animWizard.ResetTrigger("Charge");
                     animStaff.ResetTrigger("Charge");
+
+                    cam.position = camPosSpell.position;
+                    cam.rotation = camPosSpell.rotation;
                     break;
+
+
                 case State.Holding:
                     timer -= Time.deltaTime;
                     if (timer <= 0)
@@ -132,6 +145,8 @@ namespace Ejercicio4
                         animStaff.SetTrigger("Cast");
                     }
                     break;
+
+
                 case State.Casting:
                         animWizard.ResetTrigger("Cast");
                         animStaff.ResetTrigger("Cast");
