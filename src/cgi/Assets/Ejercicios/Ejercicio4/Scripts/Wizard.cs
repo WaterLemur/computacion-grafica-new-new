@@ -97,7 +97,7 @@ namespace Ejercicio4
                 CastSpell();
 
                 Transform circlePos = animWizard.gameObject.transform;
-                GameObject c = Instantiate(원불, circlePos);
+                GameObject c = Instantiate(원물, circlePos);
                 c.transform.parent = spellParent;
 
                 GameObject go = Instantiate(물, SpellSpawnPoint);
