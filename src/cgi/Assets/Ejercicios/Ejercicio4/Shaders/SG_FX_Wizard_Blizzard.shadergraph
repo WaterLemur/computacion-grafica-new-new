@@ -729,8 +729,8 @@
     "m_ObjectId": "32de4b47a8d7482c85793992185acac2",
     "m_Title": "Albedo",
     "m_Position": {
-        "x": -876.0001220703125,
-        "y": 390.0000305175781
+        "x": -875.9998168945313,
+        "y": 390.0
     }
 }
 
@@ -1084,7 +1084,7 @@
     "m_ZTestMode": 4,
     "m_ZWriteControl": 0,
     "m_AlphaMode": 0,
-    "m_RenderFace": 2,
+    "m_RenderFace": 0,
     "m_AlphaClip": false,
     "m_CastShadows": true,
     "m_ReceiveShadows": true,
@@ -1257,8 +1257,8 @@
     "m_ObjectId": "7bc129f096894aa3a3559c1a73f5a4a2",
     "m_Title": "Displacement",
     "m_Position": {
-        "x": -1693.0001220703125,
-        "y": 309.0000305175781
+        "x": -1692.999755859375,
+        "y": 309.0
     }
 }
 
