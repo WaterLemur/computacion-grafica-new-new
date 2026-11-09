@@ -4938,7 +4938,7 @@ GameObject:
   - component: {fileID: 642958871972280905}
   - component: {fileID: 3390278741531651729}
   m_Layer: 0
-  m_Name: Meteor
+  m_Name: "\uBD88Meteor"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
