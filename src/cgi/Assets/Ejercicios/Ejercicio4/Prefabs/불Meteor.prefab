@@ -52,7 +52,7 @@ ParticleSystem:
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   startDelay:
     serializedVersion: 2
     minMaxState: 0
@@ -19540,7 +19540,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpellMeteor
   rock: {fileID: 4604424964225271104}
   ground: {fileID: 3523317956995262836}
-  groundShatterTime: 4.25
+  groundShatterTime: 5
+  timer: 0.5
 --- !u!1 &9151793969678456640
 GameObject:
   m_ObjectHideFlags: 0
@@ -19593,7 +19594,7 @@ ParticleSystem:
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   startDelay:
     serializedVersion: 2
     minMaxState: 0

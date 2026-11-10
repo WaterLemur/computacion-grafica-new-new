@@ -86,7 +86,6 @@ namespace Ejercicio4
 
                 GameObject go = Instantiate(불, SpellSpawnPoint);
                 go.transform.parent = spellParent;
-                go.GetComponentInChildren<Animator>().SetTrigger("Play");
             }
         }
         public void OnBlizzard(InputAction.CallbackContext ctx)
@@ -117,7 +116,14 @@ namespace Ejercicio4
 
                 GameObject go = Instantiate(풀, SpellSpawnPoint);
                 go.transform.parent = spellParent;
-                go.GetComponentInChildren<Animator>().SetTrigger("Play");
+
+                Transform groundParent = go.transform.Find("Ground");
+                Animator[] animators = groundParent.GetComponentsInChildren<Animator>();
+                foreach(Animator animator in animators)
+                {
+                    animator.SetTrigger("Shatter");
+                }
+
             }
         }
 
@@ -146,6 +152,9 @@ namespace Ejercicio4
 
                     cam.position = camPosSpell.position;
                     cam.rotation = camPosSpell.rotation;
+
+                    animWizard.transform.position = transform.position;
+                    animWizard.transform.rotation = transform.rotation;
                     break;
 
 
