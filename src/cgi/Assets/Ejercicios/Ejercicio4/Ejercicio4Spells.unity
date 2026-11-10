@@ -5474,6 +5474,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\uD480Earthquake"
       objectReference: {fileID: 0}
+    - target: {fileID: 2381457875887210342, guid: c7d50025a29c0e999a5b3afce7599b0a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
