@@ -39,6 +39,10 @@ namespace Ejercicio4
         [SerializeField] GameObject 원불;
         [SerializeField] GameObject 원물;
         [SerializeField] GameObject 원풀;
+        [Space(5)]
+        [SerializeField] GameObject 반지불;
+        [SerializeField] GameObject 반지물;
+        [SerializeField] GameObject 반지풀;
 
 
         public static Wizard W { get; private set; }
@@ -86,6 +90,9 @@ namespace Ejercicio4
 
                 GameObject go = Instantiate(불, SpellSpawnPoint);
                 go.transform.parent = spellParent;
+
+                GameObject go2 = Instantiate(반지불, circlePos);
+                go2.transform.parent = spellParent;
             }
         }
         public void OnBlizzard(InputAction.CallbackContext ctx)
@@ -101,6 +108,9 @@ namespace Ejercicio4
 
                 GameObject go = Instantiate(물, SpellSpawnPoint);
                 go.transform.parent = spellParent;
+
+                GameObject go2 = Instantiate(반지물, circlePos);
+                go2.transform.parent = spellParent;
             }
         }
         public void OnEarthquake(InputAction.CallbackContext ctx)
@@ -116,6 +126,9 @@ namespace Ejercicio4
 
                 GameObject go = Instantiate(풀, SpellSpawnPoint);
                 go.transform.parent = spellParent;
+
+                GameObject go2 = Instantiate(반지풀, circlePos);
+                go2.transform.parent = spellParent;
 
                 Transform groundParent = go.transform.Find("Ground");
                 Animator[] animators = groundParent.GetComponentsInChildren<Animator>();
