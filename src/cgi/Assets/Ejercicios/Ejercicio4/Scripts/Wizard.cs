@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations;
 using UnityEngine.InputSystem;
 
 
@@ -28,9 +29,9 @@ namespace Ejercicio4_Spells
         [SerializeField] Transform spellParent;
         [SerializeField] Transform SpellSpawnPoint;
         [Space(5)]
-        [SerializeField] Transform cam;
-        [SerializeField] Transform camPosWiz;
-        [SerializeField] Transform camPosSpell;
+        //[SerializeField] Transform cam;
+        //[SerializeField] Transform camPosWiz;
+        //[SerializeField] Transform camPosSpell;
 
         [Header("SPELLS")]
         [SerializeField] GameObject 불;
@@ -45,7 +46,7 @@ namespace Ejercicio4_Spells
         [SerializeField] GameObject 반지물;
         [SerializeField] GameObject 반지풀;
 
-        List<ParticleSystem> currentSpell;
+        List<ParticleSystem> currentSpell = new List<ParticleSystem>();
 
 
         public static Wizard W { get; private set; }
@@ -78,7 +79,7 @@ namespace Ejercicio4_Spells
             {
                 foreach(ParticleSystem ps in currentSpell)
                 {
-                    ps.Stop();
+                    ps.Pause();
                 }
             }
             if(ctx.canceled)
@@ -183,6 +184,10 @@ namespace Ejercicio4_Spells
             currentSpell.AddRange(go2.GetComponentsInChildren<ParticleSystem>());
             currentSpell.AddRange(go3.GetComponentsInChildren<ParticleSystem>());
 
+            foreach(ParticleSystem ps in currentSpell)
+            {
+                    ps.Play();
+            }
         }
 
 
@@ -191,8 +196,11 @@ namespace Ejercicio4_Spells
             switch (state)
             {
                 case State.Idle:
-                    cam.position = camPosWiz.position;
-                    cam.rotation = camPosWiz.rotation;
+                    //cam.position = camPosWiz.position;
+                    //cam.rotation = camPosWiz.rotation;
+                    animWizard.transform.position = transform.parent.position;
+                    animWizard.transform.rotation = transform.parent.rotation;
+                    
                     break;
 
 
@@ -200,11 +208,9 @@ namespace Ejercicio4_Spells
                     animWizard.ResetTrigger("Charge");
                     animStaff.ResetTrigger("Charge");
 
-                    cam.position = camPosSpell.position;
-                    cam.rotation = camPosSpell.rotation;
+                    //cam.position = camPosSpell.position;
+                    //cam.rotation = camPosSpell.rotation;
 
-                    animWizard.transform.position = transform.position;
-                    animWizard.transform.rotation = transform.rotation;
                     break;
 
 
