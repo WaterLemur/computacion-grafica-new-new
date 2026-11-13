@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Ejercicio4
+namespace Ejercicio4_Spells
 {
     public class AnimState : StateMachineBehaviour
     {

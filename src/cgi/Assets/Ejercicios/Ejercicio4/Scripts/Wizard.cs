@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 
-namespace Ejercicio4
+namespace Ejercicio4_Spells
 {
     public enum State
     {

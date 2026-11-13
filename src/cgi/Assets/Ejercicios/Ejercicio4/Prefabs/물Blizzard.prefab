@@ -34209,6 +34209,7 @@ GameObject:
   - component: {fileID: 6238644393830471036}
   - component: {fileID: 3654252174906013173}
   - component: {fileID: 174225697441241309}
+  - component: {fileID: 9070515962945867601}
   m_Layer: 0
   m_Name: "\uBB3CBlizzard"
   m_TagString: Untagged
@@ -39040,6 +39041,21 @@ ParticleSystemRenderer:
   m_MeshWeighting1: 1
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
+--- !u!114 &9070515962945867601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7380657633314967927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e54c0f42c7507c4aed2c29852bbbaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ejercicio4_Spells.MaterialAnimator
+  targetMaterial: {fileID: -876546973899608171, guid: 854f7fb747e799798a6ae464672e6c4f, type: 3}
+  curves: []
+  particleTime: 5
 --- !u!1 &8006216641719765874
 GameObject:
   m_ObjectHideFlags: 0

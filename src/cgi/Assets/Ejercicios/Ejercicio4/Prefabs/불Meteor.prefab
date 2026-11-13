@@ -14696,6 +14696,7 @@ GameObject:
   - component: {fileID: 642958871972280905}
   - component: {fileID: 3390278741531651729}
   - component: {fileID: 802529860368490073}
+  - component: {fileID: 6054472512798927321}
   m_Layer: 0
   m_Name: "\uBD88Meteor"
   m_TagString: Untagged
@@ -19540,6 +19541,64 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpellMeteor
   ground: {fileID: 3523317956995262836}
   timer: 0.5
+--- !u!114 &6054472512798927321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7549426512722962130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e54c0f42c7507c4aed2c29852bbbaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ejercicio4_Spells.MaterialAnimator
+  targetMaterial: {fileID: 2100000, guid: 4e1d08c4ae0192a91a098f402c63c8cd, type: 2}
+  curves:
+  - materialProperty: _BlurStrenght
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 52.136696
+        outSlope: 52.136696
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3552765
+        value: 18.522942
+        inSlope: 0.9901573
+        outSlope: 0.9901573
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.051872548
+      - serializedVersion: 3
+        time: 3.473305
+        value: 16.160719
+        inSlope: -3.3041525
+        outSlope: -8.014397
+        tangentMode: 1
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.13802227
+      - serializedVersion: 3
+        time: 5
+        value: 0
+        inSlope: 0.28711426
+        outSlope: 0.28711426
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.37517777
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  particleTime: 5
 --- !u!1 &9151793969678456640
 GameObject:
   m_ObjectHideFlags: 0
