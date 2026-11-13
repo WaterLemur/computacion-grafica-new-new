@@ -39,8 +39,8 @@ Material:
     m_Floats:
     - _BlurStrenght: 1
     - _ControlVariable: 0
-    - _TintMultiplier: 0
-    - _TintStrenght: 0.23
+    - _TintMultiplier: 0.33
+    - _TintStrenght: 0
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
