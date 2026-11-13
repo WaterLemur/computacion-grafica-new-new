@@ -9876,7 +9876,7 @@ Transform:
   - {fileID: 1212540490004890065}
   - {fileID: 2222528464524517251}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &1509345370216179767
 ParticleSystem:
   m_ObjectHideFlags: 0

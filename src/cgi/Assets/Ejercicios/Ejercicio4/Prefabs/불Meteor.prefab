@@ -50,7 +50,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 0
   startDelay:
@@ -4927,7 +4927,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 0
   startDelay:
@@ -9839,7 +9839,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 0
   startDelay:
@@ -14741,7 +14741,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -19560,26 +19560,26 @@ MonoBehaviour:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1
+        time: 0
         value: 0
-        inSlope: 52.136696
-        outSlope: 52.136696
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3552765
-        value: 18.522942
-        inSlope: 0.9901573
-        outSlope: 0.9901573
+        inSlope: 0.14830698
+        outSlope: 0.14830698
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
+        outWeight: 1
+      - serializedVersion: 3
+        time: 0.5957382
+        value: 6.187981
+        inSlope: 26.062546
+        outSlope: 0.9901573
+        tangentMode: 1
+        weightedMode: 0
+        inWeight: 0.29268834
         outWeight: 0.051872548
       - serializedVersion: 3
-        time: 3.473305
-        value: 16.160719
+        time: 1.3498098
+        value: 5.7540174
         inSlope: -3.3041525
         outSlope: -8.014397
         tangentMode: 1
@@ -19587,7 +19587,7 @@ MonoBehaviour:
         inWeight: 0.33333334
         outWeight: 0.13802227
       - serializedVersion: 3
-        time: 5
+        time: 2.5
         value: 0
         inSlope: 0.28711426
         outSlope: 0.28711426
@@ -19598,7 +19598,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  particleTime: 5
+  particleTime: 0.099999994
 --- !u!1 &9151793969678456640
 GameObject:
   m_ObjectHideFlags: 0
@@ -19649,7 +19649,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 0
   startDelay:

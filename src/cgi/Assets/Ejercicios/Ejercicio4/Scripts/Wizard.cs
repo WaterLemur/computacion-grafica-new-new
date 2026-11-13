@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -44,6 +45,8 @@ namespace Ejercicio4_Spells
         [SerializeField] GameObject 반지물;
         [SerializeField] GameObject 반지풀;
 
+        List<ParticleSystem> currentSpell;
+
 
         public static Wizard W { get; private set; }
 
@@ -69,6 +72,23 @@ namespace Ejercicio4_Spells
             StateMachine();
         }
 
+        public void OnPause(InputAction.CallbackContext ctx)
+        {
+            if (ctx.started)
+            {
+                foreach(ParticleSystem ps in currentSpell)
+                {
+                    ps.Stop();
+                }
+            }
+            if(ctx.canceled)
+            {
+                foreach(ParticleSystem ps in currentSpell)
+                {
+                    ps.Play();
+                }
+            }
+        }
 
         public void CastSpell()
         {
@@ -93,6 +113,8 @@ namespace Ejercicio4_Spells
 
                 GameObject go2 = Instantiate(반지불, circlePos);
                 go2.transform.parent = spellParent;
+
+                AddParticleSystems(c, go, go2);
             }
         }
         public void OnBlizzard(InputAction.CallbackContext ctx)
@@ -111,6 +133,8 @@ namespace Ejercicio4_Spells
 
                 GameObject go2 = Instantiate(반지물, circlePos);
                 go2.transform.parent = spellParent;
+
+                AddParticleSystems(c, go, go2);
             }
         }
         public void OnEarthquake(InputAction.CallbackContext ctx)
@@ -136,7 +160,8 @@ namespace Ejercicio4_Spells
                 {
                     animator.SetTrigger("Shatter");
                 }
-
+                AddParticleSystems(c, go, go2);
+                
             }
         }
 
@@ -146,6 +171,18 @@ namespace Ejercicio4_Spells
             {
                 Destroy(child.gameObject);
             }
+
+            currentSpell.Clear();
+        }
+
+        void AddParticleSystems(GameObject go1, 
+                                GameObject go2, 
+                                GameObject go3)
+        {
+            currentSpell.AddRange(go1.GetComponentsInChildren<ParticleSystem>());
+            currentSpell.AddRange(go2.GetComponentsInChildren<ParticleSystem>());
+            currentSpell.AddRange(go3.GetComponentsInChildren<ParticleSystem>());
+
         }
 
 

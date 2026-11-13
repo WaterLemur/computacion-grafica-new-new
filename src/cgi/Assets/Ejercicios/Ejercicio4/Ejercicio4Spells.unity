@@ -313,36 +313,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3640108449606775688, guid: 1cae83d2f468ecad7bf0eb60ec00fa95, type: 3}
-      propertyPath: randomSeed
-      value: 997
-      objectReference: {fileID: 0}
-    - target: {fileID: 3640108449606775688, guid: 1cae83d2f468ecad7bf0eb60ec00fa95, type: 3}
-      propertyPath: autoRandomSeed
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6157296221212139438, guid: 1cae83d2f468ecad7bf0eb60ec00fa95, type: 3}
       propertyPath: m_Name
       value: "\uBC18\uC9C0 \uBD88"
       objectReference: {fileID: 0}
     - target: {fileID: 6157296221212139438, guid: 1cae83d2f468ecad7bf0eb60ec00fa95, type: 3}
       propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8156647249024175995, guid: 1cae83d2f468ecad7bf0eb60ec00fa95, type: 3}
-      propertyPath: randomSeed
-      value: 997
-      objectReference: {fileID: 0}
-    - target: {fileID: 8156647249024175995, guid: 1cae83d2f468ecad7bf0eb60ec00fa95, type: 3}
-      propertyPath: autoRandomSeed
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8496927352860850555, guid: 1cae83d2f468ecad7bf0eb60ec00fa95, type: 3}
-      propertyPath: randomSeed
-      value: 997
-      objectReference: {fileID: 0}
-    - target: {fileID: 8496927352860850555, guid: 1cae83d2f468ecad7bf0eb60ec00fa95, type: 3}
-      propertyPath: autoRandomSeed
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5663,8 +5639,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 677908417}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.99999994, z: -0, w: 0.00039473045}
-  m_LocalPosition: {x: -0.002801062, y: -0.00005141138, z: -0.00010199181}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10969,18 +10945,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1086542287}
     m_Modifications:
-    - target: {fileID: 642958871972280905, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4604424964225271104, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4749224072718133323, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5119808935250680726, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -11021,85 +10985,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5211305966276056028, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5502797023836043320, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6054472512798927321, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: particleTime
-      value: 3.1390877
-      objectReference: {fileID: 0}
-    - target: {fileID: 6054472512798927321, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: curves.Array.data[0].curve.m_Curve.Array.data[0].time
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6054472512798927321, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: curves.Array.data[0].curve.m_Curve.Array.data[1].time
-      value: 0.5957382
-      objectReference: {fileID: 0}
-    - target: {fileID: 6054472512798927321, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: curves.Array.data[0].curve.m_Curve.Array.data[2].time
-      value: 1.3498098
-      objectReference: {fileID: 0}
-    - target: {fileID: 6054472512798927321, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: curves.Array.data[0].curve.m_Curve.Array.data[3].time
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6054472512798927321, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: curves.Array.data[0].curve.m_Curve.Array.data[0].value
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6054472512798927321, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: curves.Array.data[0].curve.m_Curve.Array.data[1].value
-      value: 6.187981
-      objectReference: {fileID: 0}
-    - target: {fileID: 6054472512798927321, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: curves.Array.data[0].curve.m_Curve.Array.data[2].value
-      value: 5.7540174
-      objectReference: {fileID: 0}
-    - target: {fileID: 6054472512798927321, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: curves.Array.data[0].curve.m_Curve.Array.data[3].value
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6054472512798927321, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: curves.Array.data[0].curve.m_Curve.Array.data[0].inSlope
-      value: 0.14830698
-      objectReference: {fileID: 0}
-    - target: {fileID: 6054472512798927321, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: curves.Array.data[0].curve.m_Curve.Array.data[1].inSlope
-      value: 26.062546
-      objectReference: {fileID: 0}
-    - target: {fileID: 6054472512798927321, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: curves.Array.data[0].curve.m_Curve.Array.data[0].outSlope
-      value: 0.14830698
-      objectReference: {fileID: 0}
-    - target: {fileID: 6054472512798927321, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: curves.Array.data[0].curve.m_Curve.Array.data[1].inWeight
-      value: 0.29268834
-      objectReference: {fileID: 0}
-    - target: {fileID: 6054472512798927321, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: curves.Array.data[0].curve.m_Curve.Array.data[0].outWeight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6054472512798927321, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: curves.Array.data[0].curve.m_Curve.Array.data[0].tangentMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6054472512798927321, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
-      propertyPath: curves.Array.data[0].curve.m_Curve.Array.data[1].tangentMode
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7549426512722962130, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
       propertyPath: m_Name
       value: "\uBD88Meteor"
       objectReference: {fileID: 0}
     - target: {fileID: 7549426512722962130, guid: 3f8eecb5e4fbd875d9088a73508d5848, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21615,6 +21507,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 1f03bcb5-3f15-4c3f-9f27-2f136434c2e3
     m_ActionName: 'Player/Earthquake[/Keyboard/space,/Gamepad/buttonNorth]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1554429851}
+        m_TargetAssemblyTypeName: Ejercicio4_Spells.Wizard, Assembly-CSharp
+        m_MethodName: OnPause
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 2f8850a2-d440-4ef4-ad26-1f6ce690eb5f
+    m_ActionName: 'Player/Pause[/Keyboard/space,/Gamepad/rightStickPress]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -21670,9 +21578,9 @@ ParentConstraint:
   m_TranslationAtRest: {x: 0, y: 0, z: -5}
   m_RotationAtRest: {x: 0, y: 0, z: 0}
   m_TranslationOffsets:
-  - {x: 0.006748317, y: 0.00005141138, z: -4.999894}
+  - {x: 0, y: 0, z: 5}
   m_RotationOffsets:
-  - {x: 0, y: -0.045233123, z: 0}
+  - {x: 0, y: 180, z: 0}
   m_AffectTranslationX: 1
   m_AffectTranslationY: 1
   m_AffectTranslationZ: 1
@@ -38198,34 +38106,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1086542287}
     m_Modifications:
-    - target: {fileID: 304760206546441999, guid: d84a5d5894a73dc409deb84df61c50be, type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 610130062369565058, guid: d84a5d5894a73dc409deb84df61c50be, type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2020896529473138865, guid: d84a5d5894a73dc409deb84df61c50be, type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2322105015771174363, guid: d84a5d5894a73dc409deb84df61c50be, type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2330503616162326532, guid: d84a5d5894a73dc409deb84df61c50be, type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3406274247101592142, guid: d84a5d5894a73dc409deb84df61c50be, type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3654252174906013173, guid: d84a5d5894a73dc409deb84df61c50be, type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6238644393830471036, guid: d84a5d5894a73dc409deb84df61c50be, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -38272,14 +38152,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7380657633314967927, guid: d84a5d5894a73dc409deb84df61c50be, type: 3}
       propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7623783430726107286, guid: d84a5d5894a73dc409deb84df61c50be, type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8940938217035092456, guid: d84a5d5894a73dc409deb84df61c50be, type: 3}
-      propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
