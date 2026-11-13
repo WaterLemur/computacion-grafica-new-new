@@ -61,3 +61,13 @@ Lemus David Water
 
 > [!CAUTION]
 > [Demo](https://water-lemur.itch.io/cgi-4-spells)
+
+
+### 🔥 Meteor
+![Full](res/entregas/4_spells/Entrega4Spell_Meteor.png)
+
+### 🌊 Blizzard
+![Full](res/entregas/4_spells/Entrega4Spell_Blizzard.png)
+
+### 🪨 Earthquake
+![Full](res/entregas/4_spells/Entrega4Spell_Earthquake.png)

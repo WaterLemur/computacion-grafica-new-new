@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Ejercicios/Ejercicio4/Ejercicio4Spells.unity
+    path: Assets/EjercicioFinal/Demo/Ejercicio4Spells.unity
     guid: 00527b093d9ed9717913b762ed434465
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
