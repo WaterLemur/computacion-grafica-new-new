@@ -81,6 +81,8 @@ namespace Ejercicio4_Spells
                 {
                     ps.Pause();
                 }
+                currentSpell[0].GetComponent<ParticleSystemRenderer>()
+                    .material.SetFloat("Play", 0f);
             }
             if(ctx.canceled)
             {
@@ -88,6 +90,8 @@ namespace Ejercicio4_Spells
                 {
                     ps.Play();
                 }
+                currentSpell[0].GetComponent<ParticleSystemRenderer>()
+                    .material.SetFloat("Play", 1f);
             }
         }
 
@@ -180,7 +184,7 @@ namespace Ejercicio4_Spells
                                 GameObject go2, 
                                 GameObject go3)
         {
-            currentSpell.AddRange(go1.GetComponentsInChildren<ParticleSystem>());
+            currentSpell.Add(go1.GetComponent<ParticleSystem>());
             currentSpell.AddRange(go2.GetComponentsInChildren<ParticleSystem>());
             currentSpell.AddRange(go3.GetComponentsInChildren<ParticleSystem>());
 

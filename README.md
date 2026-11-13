@@ -52,3 +52,12 @@ Lemus David Water
 > [!CAUTION]
 > [🔺 Youtube](https://youtu.be/vvkRg7jM2wc)
 > [🔺 Correccion](https://youtu.be/0wIszJiKMGg)
+
+
+## Entrega 4 Spells
+
+> [!CAUTION]
+> [🔺 Youtube](https://youtu.be/9Z0j1hViT6c)
+
+> [!CAUTION]
+> [Demo](https://water-lemur.itch.io/cgi-4-spells)

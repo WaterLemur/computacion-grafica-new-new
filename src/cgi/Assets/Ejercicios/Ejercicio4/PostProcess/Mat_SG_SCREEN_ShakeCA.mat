@@ -39,7 +39,7 @@ Material:
     m_Floats:
     - _ShakeStrenght: 4.52
     - _Sped: 0
-    - _Speed: 0
+    - _Speed: 0.8765141
     m_Colors:
     - _ChannelOffsets: {r: 1, g: 1, b: 1, a: 0}
     - _Intensity: {r: 1.24, g: 3.18, b: 0, a: 0}
