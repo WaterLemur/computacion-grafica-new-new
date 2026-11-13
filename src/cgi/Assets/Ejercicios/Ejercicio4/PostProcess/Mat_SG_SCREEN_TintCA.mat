@@ -40,7 +40,7 @@ Material:
     - _BlurStrenght: 1
     - _ControlVariable: 0
     - _TintMultiplier: 0.33
-    - _TintStrenght: 0
+    - _TintStrenght: 0.26155415
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

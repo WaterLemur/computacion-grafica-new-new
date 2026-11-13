@@ -39053,9 +39053,79 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8e54c0f42c7507c4aed2c29852bbbaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ejercicio4_Spells.MaterialAnimator
-  targetMaterial: {fileID: -876546973899608171, guid: 854f7fb747e799798a6ae464672e6c4f, type: 3}
-  curves: []
-  particleTime: 0.099999994
+  targetMaterial: {fileID: 2100000, guid: 6af2fa6ef159cdba793ab0abddf8372b, type: 2}
+  curves:
+  - materialProperty: _TintStrenght
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.593736
+        outSlope: 0.593736
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.0308772
+        value: 0.6120689
+        inSlope: 0.06799282
+        outSlope: 0.06799282
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.814251
+        value: 0.2534793
+        inSlope: 0.09497337
+        outSlope: 0.09497337
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.4212046
+        value: 0.6466014
+        inSlope: -0.016900957
+        outSlope: -0.016900957
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.0970645
+        value: 0.1860035
+        inSlope: -0.12748909
+        outSlope: -0.12748909
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 4.1862006
+        value: 0.65054274
+        inSlope: -0.19771346
+        outSlope: -0.19771346
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 4.9776654
+        value: 0
+        inSlope: -0.82194775
+        outSlope: -0.82194775
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  particleTime: 0
 --- !u!1 &8006216641719765874
 GameObject:
   m_ObjectHideFlags: 0
